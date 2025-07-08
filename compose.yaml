@@ -1,0 +1,6 @@
+﻿services:
+  teststreamingplatform:
+    image: teststreamingplatform
+    build:
+      context: .
+      dockerfile: TestStreamingPlatform/Dockerfile
