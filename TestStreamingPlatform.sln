@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStreamingPlatform", "TestStreamingPlatform\TestStreamingPlatform.csproj", "{97D3D915-7F48-4E55-BF31-6D8056952E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B89B4FDE-AE2F-410F-886E-A9CE2F29AE58}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
