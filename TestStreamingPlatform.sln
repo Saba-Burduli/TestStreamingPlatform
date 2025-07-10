@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStreamingPlatform", "TestStreamingPlatform\TestStreamingPlatform.csproj", "{97D3D915-7F48-4E55-BF31-6D8056952E66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStreamingPlatform.Api", "TestStreamingPlatform.Api\TestStreamingPlatform.Api.csproj", "{97D3D915-7F48-4E55-BF31-6D8056952E66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B89B4FDE-AE2F-410F-886E-A9CE2F29AE58}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStreamingPlatform.Application", "TestStreamingPlatform.Application\TestStreamingPlatform.Application.csproj", "{9B0A8FB4-F5F8-461C-BA8A-02C5B4010C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStreamingPlatform.Domain", "TestStreamingPlatform.Domain\TestStreamingPlatform.Domain.csproj", "{3DBD0E41-E67B-417D-9402-DF55712A6D5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStreamingPlatform.Infrastructure", "TestStreamingPlatform.Infrastructure\TestStreamingPlatform.Infrastructure.csproj", "{0A38654A-7DA1-4428-B625-FB2444B378C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +23,17 @@ Global
 		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D3D915-7F48-4E55-BF31-6D8056952E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0A8FB4-F5F8-461C-BA8A-02C5B4010C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0A8FB4-F5F8-461C-BA8A-02C5B4010C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0A8FB4-F5F8-461C-BA8A-02C5B4010C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0A8FB4-F5F8-461C-BA8A-02C5B4010C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBD0E41-E67B-417D-9402-DF55712A6D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBD0E41-E67B-417D-9402-DF55712A6D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBD0E41-E67B-417D-9402-DF55712A6D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBD0E41-E67B-417D-9402-DF55712A6D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A38654A-7DA1-4428-B625-FB2444B378C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A38654A-7DA1-4428-B625-FB2444B378C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A38654A-7DA1-4428-B625-FB2444B378C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A38654A-7DA1-4428-B625-FB2444B378C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
