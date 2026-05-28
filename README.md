@@ -12,6 +12,7 @@ The project is intended for learning and prototyping streaming-related systems r
 
 Typical structure may include:
 
+```
 TestStreamingPlatform/
 ├── backend/
 ├── frontend/
@@ -20,7 +21,7 @@ TestStreamingPlatform/
 ├── package.json (Node.js projects)
 ├── requirements.txt (Python projects)
 └── entry files (server.js / index.js / main.py / app.py)
-
+```
 ---
 
 ## How to Run the Project
